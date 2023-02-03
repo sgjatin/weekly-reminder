@@ -1,7 +1,6 @@
 import express, { Request, Response } from "express";
 import * as bodyParser from "body-parser";
 import { Routes } from "./routes";
-import { DBConnection } from "./database/connection";
 import { CalculateEmployeeRecords } from "./util/employee";
 
 class App {
@@ -14,14 +13,10 @@ class App {
     this.configuration();
     this.routes();
     this.router.routes(this.app);
-
-    DBConnection.databaseConnection();
   }
   public async configuration(): Promise<void> {
     this.app.set("port", process.env.PORT || 8080);
     this.app.use(express.json());
-
-    this.calculateEmployeeRecords.calculateEmployeeData();
   }
 
   /**
@@ -40,6 +35,8 @@ class App {
    */
   public async start(): Promise<void> {
     this.app.listen(this.app.get("port"), () => {
+      this.calculateEmployeeRecords.calculateEmployeeData();
+
       // console.log(`Server is listening ${this.app.get("port")} port.`);
     });
   }

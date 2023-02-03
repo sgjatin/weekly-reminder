@@ -1,124 +1,64 @@
 {
-  "data": [
+  "employees": [
     {
-      "id": "time_record_12345",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_54321",
-        "first_name": "Aman",
-        "last_name": "Jaiswal",
-        "email": "aman@studiographene.com",
-        "clock_in_time": "2023-01-30T09:00:00Z",
-        "clock_out_time": "2023-01-30T17:00:00Z"
-      }
+      "id": 1,
+      "name": "Meeta Maity",
+      "email": "meeta@studiographene.com",
+      "designation": "Software Engineer",
+      "department": "Engineering",
+      "employee_code": "E001",
+      "date_of_joining": "2022-01-01",
+      "attendance": [
+        {
+          "id": 1,
+          "employee_id": "E001",
+          "clock_in_time": "2022-01-01T09:00:00.000Z",
+          "clock_out_time": "2022-01-01T17:00:00.000Z"
+        },
+        {
+          "id": 1,
+          "employee_id": "E001",
+          "clock_in_time": "2022-01-02T09:30:00.000Z",
+          "clock_out_time": "2022-01-02T18:00:00.000Z"
+        }
+      ]
     },
     {
-      "id": "time_record_67890",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_54321",
-        "first_name": "Aman",
-        "last_name": "Jaiswal",
-        "email": "aman@studiographene.com",
-        "clock_in_time": "2023-01-31T09:00:00Z",
-        "clock_out_time": "2023-01-31T17:00:00Z"
-      }
+      "id": 2,
+      "name": "Jane Doe2",
+      "email": "jane.doe2@example.com",
+      "designation": "Product Manager",
+      "department": "Product",
+      "employee_code": "E002",
+      "date_of_joining": "2022-02-01",
+      "attendance": [
+        {
+          "id": 1,
+          "employee_id": "E002",
+          "clock_in_time": "2022-01-01T09:00:00.000Z",
+          "clock_out_time": "2022-01-01T17:00:00.000Z"
+        }
+      ]
     },
     {
-      "id": "time_record_12340",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_67890",
-        "first_name": "Jatin",
-        "last_name": "Raghav",
-        "email": "jatin.raghav@studiographene.com",
-        "clock_in_time": "2023-01-31T09:00:00Z",
-        "clock_out_time": "2023-01-31T17:00:00Z"
-      }
+      "id": 3,
+      "name": "Jatin Raghav",
+      "email": "jatin.raghav@studiographene.com",
+      "designation": "Software Engineer",
+      "department": "Engineering",
+      "employee_code": "E003",
+      "date_of_joining": "2022-01-01",
+      "attendance": []
     },
     {
-      "id": "time_record_26750",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_67890",
-        "first_name": "Jatin",
-        "last_name": "Raghav",
-        "email": "jatin.raghav@studiographene.com",
-        "clock_in_time": "2023-02-03T09:00:00Z",
-        "clock_out_time": "2023-02-03T17:00:00Z"
-      }
-    },
-    {
-      "id": "time_record_28787",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_89789",
-        "first_name": "Shipra",
-        "last_name": "Wasson",
-        "email": "shipra@studiographene.com",
-        "clock_in_time": "2023-02-01T09:00:00Z",
-        "clock_out_time": "2023-02-01T17:00:00Z"
-      }
-    },
-    {
-      "id": "time_record_89870",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_89789",
-        "first_name": "Shipra",
-        "last_name": "Wasson",
-        "email": "shipra@studiographene.com",
-        "clock_in_time": "2023-02-03T09:00:00Z",
-        "clock_out_time": "2023-02-03T17:00:00Z"
-      }
-    },
-    {
-      "id": "time_record_57678",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_38970",
-        "first_name": "Garima",
-        "last_name": "Chowrasia",
-        "email": "garima@studiographene.com",
-        "clock_in_time": "2023-02-02T09:00:00Z",
-        "clock_out_time": "2023-02-02T17:00:00Z"
-      }
-    },
-    {
-      "id": "time_record_97872",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_877670",
-        "first_name": "Meeta",
-        "last_name": "Maity",
-        "email": "meeta@studiographene.com",
-        "clock_in_time": "2023-01-30T09:00:00Z",
-        "clock_out_time": "2023-01-30T17:00:00Z"
-      }
-    },
-    {
-      "id": "time_record_45622",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_12672",
-        "first_name": "Manish",
-        "last_name": "Sharma",
-        "email": "manish.sharma@studiographene.com",
-        "clock_in_time": "2023-01-31T09:00:00Z",
-        "clock_out_time": "2023-01-31T17:00:00Z"
-      }
-    },
-    {
-      "id": "time_record_89762",
-      "type": "time_record",
-      "attributes": {
-        "employee_id": "employee_12672",
-        "first_name": "Manish",
-        "last_name": "Sharma",
-        "email": "manish.sharma@studiographene.com",
-        "clock_in_time": "2023-02-02T09:00:00Z",
-        "clock_out_time": "2023-02-02T17:00:00Z"
-      }
+      "id": 4,
+      "name": "Jane Doe4",
+      "email": "jane.doe4@example.com",
+      "designation": "Product Manager",
+      "department": "Product",
+      "employee_code": "E004",
+      "date_of_joining": "2022-02-01",
+      "attendance": []
     }
   ]
 }
